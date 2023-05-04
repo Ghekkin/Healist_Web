@@ -45,7 +45,7 @@ header {
   padding: 0px 25px;
 }
 
-.rectangulo {
+.rectangulosuperior {
   position: absolute;
   top: 0px;
   left: 0;
@@ -95,4 +95,84 @@ header {
 }
 .SignUpbutt:hover {
   background-color: #c393c286;
+}
+
+.Rectanguloinferior{
+
+position: absolute;
+width: 1440px;
+height: 241px;
+left: 0px;
+top: 1067px;
+width: 100%;
+background: #262626;
+
+}
+
+.iconinf{
+
+  position: absolute;
+  width: 150px;
+  height: 36px;
+  left: 133px;
+  bottom: 185px;
+  
+
+}
+
+.eslogainf{
+
+  position: absolute;
+height: 53.08px;
+left: 133px;
+right: 1022px;
+bottom: 109.92px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #FFFFFF;
+
+}
+
+.marcaregis{
+
+  position: absolute;
+height: 23.59px;
+left: 133px;
+right: 1003px;
+bottom: 55.85px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+}
+
+.paraquenonosdenuncien{
+  position: absolute;
+height: 75px;
+left: 498px;
+right: 498px;
+bottom: 90px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* or 120% */
+
+text-align: center;
+
+color: #FFFFFF;
 }

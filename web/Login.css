@@ -11,8 +11,8 @@
     position: absolute;
     width: 226px;
     height: 84px;
-    left: 44px;
-    top: 281px;
+    left: 258px;
+    top: 188px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -29,8 +29,8 @@
     position: absolute;
     width: 412px;
     height: 42px;
-    left: 44px;
-    top: 403px;
+    left: 165px;
+    top: 290px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -44,17 +44,18 @@
   .eslogan{
     
     position: absolute;
-    width: 617px;
+    width: 372px;
     height: 69px;
-    left: 42px;
-    top: 470px;
+    left: 185px;
+    top: 368px;
     
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    
+    text-align: center;
+
     color: rgba(0, 0, 0, 0.5);
   }
 
@@ -64,7 +65,7 @@
     width: 625px;
     height: 63px;
     left: 86.44px;
-    top: 619px;
+    top: 519px;
     
 
     
@@ -88,7 +89,7 @@ background: #FFFFFF;
 width: 625px;
 height: 63px;
 left: 42px;
-top: 603px;
+top: 503px;
 border: 1px solid #9E9E9E;
 border-radius: 8px;
 
@@ -109,7 +110,7 @@ text-align: center;
     width: 65px;
     height: 30px;
     left: 322px;
-    top: 620px;
+    top: 520px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -130,7 +131,7 @@ color: #9E9E9E;
     width: 625px;
     height: 63px;
     left: 42px;
-    top: 718px;
+    top: 618px;
 
     border: 1px solid #9E9E9E;
     border-radius: 8px;
@@ -151,7 +152,7 @@ color: #9E9E9E;
     width: 115px;
     height: 30px;
     left: 293px;
-    top: 735px;
+    top: 635px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -174,7 +175,7 @@ color: #9E9E9E;
 width: 274px;
 height: 67px;
 left: 214px;
-top: 896px;
+top: 796px;
 
 background: #C393C2;
 border-radius: 15px;
@@ -189,7 +190,7 @@ border: none;
 width: 90px;
 height: 34px;
 left: 306px;
-top: 912px;
+top: 812px;
 cursor: pointer;
 
 font-family: 'Roboto';
@@ -204,3 +205,13 @@ align-items: center;
 
 color: #262626;
 }
+
+.doctor_1{
+
+    position: relative;
+
+    top: 9.6px;
+    float: right;
+
+}
+
