@@ -92,23 +92,32 @@ top: 603px;
 border: 1px solid #9E9E9E;
 border-radius: 8px;
 
-}
-
-.form_label{
-
-    position: absolute;
-width: 65px;
-height: 30px;
-left: 86.44px;
-top: 619px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 26px;
 line-height: 30px;
-display: flex;
 align-items: center;
+color: #262626;
+text-align: center;
+
+}
+
+.form_label_email{
+
+    position: absolute;
+    width: 65px;
+    height: 30px;
+    left: 322px;
+    top: 620px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
 
 /* input-border */
 
@@ -126,6 +135,14 @@ color: #9E9E9E;
     border: 1px solid #9E9E9E;
     border-radius: 8px;
 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    align-items: center;
+    color: #262626;
+    text-align: center;
 }
 
 .form_label_pass{
@@ -133,8 +150,8 @@ color: #9E9E9E;
     position: absolute;
     width: 115px;
     height: 30px;
-    left: 86.44px;
-    top: 734px;
+    left: 293px;
+    top: 735px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -148,4 +165,42 @@ color: #9E9E9E;
     
     color: #9E9E9E;
 
+    
+
+}
+
+.form_submit{
+    position: absolute;
+width: 274px;
+height: 67px;
+left: 214px;
+top: 896px;
+
+background: #C393C2;
+border-radius: 15px;
+cursor: pointer;
+
+border: none;
+}
+
+.text_submit{
+
+    position: absolute;
+width: 90px;
+height: 34px;
+left: 306px;
+top: 912px;
+cursor: pointer;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 34px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #262626;
 }
