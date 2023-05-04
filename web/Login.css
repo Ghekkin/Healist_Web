@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.TextTitle{
+
+    position: absolute;
+    width: 226px;
+    height: 84px;
+    left: 44px;
+    top: 281px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 84px;
+    
+    color: #262626;
+    
+  }
+
+
+  .Textinstruc{
+    position: absolute;
+    width: 412px;
+    height: 42px;
+    left: 44px;
+    top: 403px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #111111;
+  }
+
+  .eslogan{
+    
+    position: absolute;
+    width: 617px;
+    height: 69px;
+    left: 42px;
+    top: 470px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+ .inputs .email {
+
+    position: absolute;
+    width: 625px;
+    height: 63px;
+    left: 86.44px;
+    top: 619px;
+    
+
+    
+    border: 1px solid #9E9E9E;
+border-radius: 8px;
+background: #FFFFFF;
+
+
+
+  }
+
+  .inputs a:hover { 
+
+    color: #c50000 ;
+
+  }
+
+.form_input_email{
+
+    position: absolute;
+width: 625px;
+height: 63px;
+left: 42px;
+top: 603px;
+border: 1px solid #9E9E9E;
+border-radius: 8px;
+
+}
+
+.form_label{
+
+    position: absolute;
+width: 65px;
+height: 30px;
+left: 86.44px;
+top: 619px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+display: flex;
+align-items: center;
+
+/* input-border */
+
+color: #9E9E9E;
+}
+
+.form_input_pass{
+
+    position: absolute;
+    width: 625px;
+    height: 63px;
+    left: 42px;
+    top: 718px;
+
+    border: 1px solid #9E9E9E;
+    border-radius: 8px;
+
+}
+
+.form_label_pass{
+
+    position: absolute;
+    width: 115px;
+    height: 30px;
+    left: 86.44px;
+    top: 734px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    
+    /* input-border */
+    
+    color: #9E9E9E;
+
+}
