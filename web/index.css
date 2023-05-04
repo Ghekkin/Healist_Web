@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0.03%;
+  bottom: 95%;
+
+  background: #dee5f6;
+}
+
+.logo {
+  position: absolute;
+  width: 104.93px;
+  height: 26.56px;
+  left: 54px;
+  top: 31.72px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+
+  color: #5d7aaa;
+}
