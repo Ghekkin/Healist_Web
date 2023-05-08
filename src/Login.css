@@ -83,7 +83,7 @@ background: #FFFFFF;
 
   }
 
-.form_input_email{
+  #email_input{
 
     position: absolute;
 width: 625px;
@@ -102,9 +102,13 @@ align-items: center;
 color: #262626;
 text-align: center;
 
+background-color: rgba(0, 0, 0, 0);
 }
 
-.form_label_email{
+#email_label{
+
+  opacity: 1;
+  transition: opacity 0.2s ease-out;
 
     position: absolute;
     width: 65px;
@@ -125,7 +129,13 @@ text-align: center;
 color: #9E9E9E;
 }
 
-.form_input_pass{
+#email_label.ocultar{
+  opacity: 0;
+}
+
+
+#pass_input{
+
 
     position: absolute;
     width: 625px;
@@ -144,9 +154,12 @@ color: #9E9E9E;
     align-items: center;
     color: #262626;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0);
 }
 
-.form_label_pass{
+#pass_label{
+  opacity: 1;
+  transition: opacity 0.2s ease-out;
 
     position: absolute;
     width: 115px;
@@ -168,6 +181,10 @@ color: #9E9E9E;
 
     
 
+}
+
+#pass_label.ocultar{
+  opacity: 0;
 }
 
 .form_submit{
@@ -214,4 +231,5 @@ color: #262626;
     float: right;
 
 }
+
 
