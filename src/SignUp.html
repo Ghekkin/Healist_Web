@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Healist</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./SignUp.css">
         <link rel="stylesheet" href="./BarNav.css" />
 
@@ -44,43 +43,53 @@
 
           </div>
 
-          <div>
+          <form id="form-register">
 
-            <label for="input_FirsN" id="label_FirsN"></label>
-            <input type="text" name="FirsN" id="input_FirsN">
+            <label for="input_FirsN" id="label_FirsN">First Name </label>
+            <input type="text" name="FirsN" id="input_FirsN" required>
 
-            <label for="input_LastN" id="label_LastN"></label>
-            <input type="text" name="input_LastN" id="input_LastN">
+            <label for="input_LastN" id="label_LastN">Last Name</label>
+            <input type="text" name="input_LastN" id="input_LastN" required>
 
-            <label for="input_email" id="label_email"></label>
-            <input type="email" name="" id="input_email">
+            <label for="input_email" id="label_email">Email</label>
+            <input type="email" name="" id="input_email" required>
 
-            <label for="input_TelNum" id="label_TelNum"></label>
-            <input type="number" name="input_TelNum" id="input_TelNum">
+            <label for="input_TelNum" id="label_TelNum">Mobile Number</label>
+            <input type="number" name="input_TelNum" id="input_TelNum" required>
 
-            <label for="input_curp" id="label_curp"></label>
-            <input type="text" name="input_curp" id="input_curp">
+            <label for="input_identificatorNumber" id="label_identificatorNumber">ID</label>
+            <input type="text" name="input_identificatorNumber" id="input_identificatorNumber" required>
 
-            <label for="input_nacimiento" id="label_nacimiento"></label>
-            <input type="date" name="input_nacimiento" id="input_nacimiento">
+            <label for="input_nacimiento" id="label_nacimiento">Date of Birth</label>
+            <input type="date" name="input_nacimiento" id="input_nacimiento" pattern="\d{4}-\d{2}-\d{2}" placeholder="YYYY-MM-DD" required>
 
-            <label for="genero" id="label_genero"></label>
+            <label for="genero" id="label_genero">Gender</label>
             <select name="genero" id="genero">
+              <option value=""></option>
               <option value="masculino">Masculino</option>
               <option value="femenino">Femenino</option>
             </select>
 
-            <label for="input_Password" id="label_Pass"></label>
-            <input type="text" name="input_Password" id="input_Password">
+            <label for="input_Password" id="label_Pass">Password</label>
+            <input type="text" name="input_Password" id="input_Password" required>
 
-            <label for="input_Confirm_pass" id="label_Confirm_pass"></label>
-            <input type="text" name="input_Confirm_pass" id="input_Confirm_pass">
+            <label for="input_Confirm_pass" id="label_Confirm_pass">Confirm Password</label>
+            <input type="text" name="input_Confirm_pass" id="input_Confirm_pass" required>
 
+            <button type="submit" id="Registesbutt" class="Registesbutt">Register</button>
+          </form>
 
-            
-          </div>
-
+          <script type="module" src="./app/firebaseconfig.js"></script>
+          <script type="module" src="./app/SignUpFormSubmit.js"></script>
         
-        <script src="" async defer></script>
+            <div class="Rectanguloinferior">
+
+              <img class="iconinf" src="./media/LOGO-ICONO.svg" alt="iconinf">
+              <p class="eslogainf">Committed to people's health and wellbeing</p>
+              <p class="marcaregis">© Healist 2023</p>
+              <p class="paraquenonosdenuncien">Service under development, due to this there may be vulnerabilities in our system, therefore, we are not responsible for data leaks.</p>
+              </div>
+              
+        <script src="./app/SignupFormAnimations.js" async defer></script>
     </body>
 </html>
