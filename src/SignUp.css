@@ -385,3 +385,22 @@ cursor: pointer;
 
 }
 
+#errortext{
+
+  position: absolute;
+  width: 800px;
+  height: 30px;
+  left: 70px;
+  top: 481px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  
+  color: rgba(202, 47, 47, 0.47);
+}
+

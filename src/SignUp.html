@@ -46,22 +46,22 @@
           <form id="form-register">
 
             <label for="input_FirsN" id="label_FirsN">First Name </label>
-            <input type="text" name="FirsN" id="input_FirsN" required>
+            <input type="text" name="FirsN" id="input_FirsN" >
 
             <label for="input_LastN" id="label_LastN">Last Name</label>
-            <input type="text" name="input_LastN" id="input_LastN" required>
+            <input type="text" name="input_LastN" id="input_LastN" >
 
             <label for="input_email" id="label_email">Email</label>
             <input type="email" name="" id="input_email" required>
 
             <label for="input_TelNum" id="label_TelNum">Mobile Number</label>
-            <input type="number" name="input_TelNum" id="input_TelNum" required>
+            <input type="number" name="input_TelNum" id="input_TelNum" >
 
             <label for="input_identificatorNumber" id="label_identificatorNumber">ID</label>
-            <input type="text" name="input_identificatorNumber" id="input_identificatorNumber" required>
+            <input type="text" name="input_identificatorNumber" id="input_identificatorNumber" >
 
             <label for="input_nacimiento" id="label_nacimiento">Date of Birth</label>
-            <input type="date" name="input_nacimiento" id="input_nacimiento" pattern="\d{4}-\d{2}-\d{2}" placeholder="YYYY-MM-DD" required>
+            <input type="date" name="input_nacimiento" id="input_nacimiento" pattern="\d{4}-\d{2}-\d{2}" placeholder="YYYY-MM-DD" >
 
             <label for="genero" id="label_genero">Gender</label>
             <select name="genero" id="genero">
@@ -71,10 +71,12 @@
             </select>
 
             <label for="input_Password" id="label_Pass">Password</label>
-            <input type="text" name="input_Password" id="input_Password" required>
+            <input type="password" name="input_Password" id="input_Password" required>
 
             <label for="input_Confirm_pass" id="label_Confirm_pass">Confirm Password</label>
-            <input type="text" name="input_Confirm_pass" id="input_Confirm_pass" required>
+            <input type="password" name="input_Confirm_pass" id="input_Confirm_pass" >
+
+            <p id="errortext"></p>
 
             <button type="submit" id="Registesbutt" class="Registesbutt">Register</button>
           </form>

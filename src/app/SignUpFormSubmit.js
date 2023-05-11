@@ -24,6 +24,17 @@ try{
 
   console.log(error)
 
+  console.log(error.code)
+  if(error.code==='auth/weak-password'){
+    texterror.textContent="The password is too weak";
+  }
+  if(error.code==='auth/invalid-email'){
+    texterror.textContent="The email is invalid";
+  }
+  if(error.code==='auth/email-already-in-use'){
+    texterror.textContent="The email is already in use";
+  }
+
 }
 
 
