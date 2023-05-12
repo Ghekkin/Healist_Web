@@ -299,7 +299,6 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   height: 431px;
   left: 892px;
   top: 811px;
-  background: url(pose_0037.png);
 
 }
 
@@ -319,14 +318,107 @@ top: 671px;
   width: 465px;
   height: 754px;
   left: -70px;
-  top: 1597px;
+  top: 1497px;
 
 
 }
 
-#navb{
+#hom{
   position: absolute;
   left: 0px;
   top: 0px;
   
+}
+
+#head{
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+
+
+
+.Rectanguloinferiorindx{
+
+  position: absolute;
+  width: 1440px;
+  height: 241px;
+  left: 0px;
+
+  
+  background: #262626;
+}
+
+
+.iconinfindx{
+  position: absolute;
+  width: 150px;
+  height: 36px;
+  left: 133px;
+  top: 2463px;
+  
+
+}
+
+.eslogainfindx{
+  position: absolute;
+  width: 285px;
+  height: 53.08px;
+  left: 133px;
+  top: 2521px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  
+  
+  color: #FFFFFF;
+
+}
+
+
+.marcaregisindx{
+  position: absolute;
+  height: 23.59px;
+  left: 9.24%;
+  right: 69.65%;
+  top: 2604.56px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  
+  color: #FFFFFF;
+
+}
+
+.paraquenonosdenuncienindx{
+  position: absolute;
+  height: 53.08px;
+  left: 34.58%;
+  right: 34.58%;
+  top: 2519px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+  
+  text-align: center;
+  
+  color: #FFFFFF;
+
 }

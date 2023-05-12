@@ -87,7 +87,7 @@ background: #FFFFFF;
 
   }
 
-  #email_input{
+  #lo_email_input{
 
     position: absolute;
 width: 625px;
@@ -139,7 +139,7 @@ color: #9E9E9E;
 }
 
 
-#pass_input{
+#lo_pass_input{
 
 
     position: absolute;
@@ -212,12 +212,12 @@ border: none;
 
 }
 
-.text_Sign_in{
+#loginbut{
 
     position: absolute;
-width: 90px;
-height: 34px;
-left: 306px;
+    width: 281px;
+    height: 67px;
+left: 215px;
 top: 812px;
 cursor: pointer;
 
@@ -227,11 +227,23 @@ font-weight: 700;
 font-size: 29px;
 line-height: 34px;
 /* identical to box height */
+background: #C393C2;
 
 display: flex;
 align-items: center;
 
 color: #262626;
+border-radius: 5px;
+
+  padding-left: 5.8%;
+
+  border-color: rgba(0, 0, 0, 0);
+}
+
+#loginbut:hover {
+
+  background-color: #d690d5ad;
+
 }
 
 .doctor_1{
@@ -243,4 +255,24 @@ color: #262626;
 
 }
 
+
+#texterror{
+
+  position: absolute;
+  width: 864px;
+  height: 30px;
+  left: 42px;
+  top: 456px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  
+  color: rgba(202, 47, 47, 0.47);
+
+}
 

@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./BarNav.css" />
     <link rel="stylesheet" href="./Login.css" />
+
   </head>
   <body>
     <header>
@@ -16,9 +17,9 @@
 
       <nav>
         <ul class="nav__links">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./index.html#serv">Sevice</a></li>
-          <li><a href="./index.html">About</a></li>
+          <li><a href="./index.html#hom">Home</a></li>
+          <li><a href="./index.html#serv">Service</a></li>
+          <li><a href="./index.html#Abou">About</a></li>
         </ul>
       </nav>
 
@@ -37,32 +38,28 @@
 
     <img src="./media/Group 1000004313.png" alt="doctor_1" class="doctor_1">  
 
-    <script src="" async defer></script>
 
     <h2 class="TextTitle">Sign In</h2>
     <h1 class="Textinstruc">Please Login To Continue</h1>
     <p class="eslogan">Committed to people's health and wellbeing</p>
 
-    <form class="form">
-      <div class="form_continer">
+    <form id="formlogin">
 
+            <p id="texterror"></p>
             <label for="email_input" id="email_label">Email</label>
-            <input type="email" id="email_input">
-            <span class="form_line_email"></span>
-
-
-        <div class=" "form_group_pass">
+            <input type="email" id="lo_email_input">
+        
             <label for="pass_input" id="pass_label">Password</label>
-            <input type="password" id="pass_input">
-            <span class="form_line_pass"></span>
-       </div>
-       <input type="submit" class="Sign_in" value=" ">
-       <label for="text_submit" class= "text_Sign_in">Sign in</label>
+            <input type="password" id="lo_pass_input">
+       
 
-      </div>
+      <button type="submit" id="loginbut" class="Registesbutt">Sign in <div id="loading"></div></button>
+
+
     </form>
+<script type="module" src="./app/firebaseconfig.js"></script>
+<script type="module" src="./app/SignInForms.js" ></script>
 
-<SCript src="./app/LoginAnimation.js"></SCript>
 
 <div class="Rectanguloinferior">
 
@@ -72,5 +69,6 @@
 <p class="paraquenonosdenuncien">Service under development, due to this there may be vulnerabilities in our system, therefore, we are not responsible for data leaks.</p>
 </div>
 
+<script src="./app/LoginAnimation.js" type="module"></script>
 </body>
 </html>
