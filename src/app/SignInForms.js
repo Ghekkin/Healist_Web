@@ -1,5 +1,7 @@
 import { signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-auth.js"
 import { auth } from "./firebaseconfig.js"
+import {getDocs,addDoc} from 'https://www.gstatic.com/firebasejs/9.21.0/firebase-firestore.js';
+import { colRef } from "./firebaseconfig.js"
 
 const signinForm = document.querySelector("#formlogin");
 
@@ -9,11 +11,23 @@ signinForm.addEventListener('submit', async (e) => {
     const email = signinForm['lo_email_input'].value;
     const password= signinForm['lo_pass_input'].value;
 
+
+
     try{
     const usercredentials = await signInWithEmailAndPassword(auth, email, password)
-        console.log(usercredentials)
+        //console.log(usercredentials)
 
-        window.location.href="./HealistPa.html"
+        console.log();
+
+        getidforemail("t@tt.com")
+  .then((ids) => {
+    console.log(ids); // muestra el valor de ids
+    window.location.href="./HealistPa.html"+"#"+ids
+
+  })
+  .catch((error) => {
+    console.error(error); // maneja cualquier error que ocurra en la promesa
+  });
 
 
 
@@ -33,3 +47,48 @@ signinForm.addEventListener('submit', async (e) => {
     }
 
 })
+
+
+function getidforemail(userem) {
+    return new Promise((resolve, reject) => {
+      getDocs(colRef)
+        .then((snapshot) => {
+          let users = [];
+          snapshot.docs.forEach((doc) => {
+            users.push({ ...doc.data(), id: doc.id });
+          });
+  
+          function getEmailIds(json) {
+            const emailIds = [];
+            json.forEach((obj) => {
+              if (obj.hasOwnProperty("email")) {
+                emailIds.push({ email: obj.email, id: obj.id });
+              }
+            });
+            return emailIds;
+          }
+  
+          const emailIds = getEmailIds(users);
+  
+          let ids = "";
+          for (let i = 0; i < emailIds.length; i++) {
+            if (emailIds[i].email === userem) {
+              ids = emailIds[i].id;
+              break;
+            }
+          }
+  
+          resolve(ids); // resuelve la promesa con el valor de ids
+        })
+        .catch((error) => {
+          reject(error); // rechaza la promesa si hay un error en la consulta
+        });
+    });
+  }
+   
+    
+
+
+
+
+
