@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#welcoolme{
+
+    position: absolute;
+    width: 534px;
+    height: 26px;
+    left: 338px;
+    top: 69px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+
+}
+
+#cuadradogris{
+position: absolute;
+width: 1590px;
+height: 1000px;
+left: 245px;
+top: 0px;
+
+background: #f9f9f9;
+
+position: fixed;
+
+
+}
+
+#cuadradologo{
+position: relative;
+    width: 213px;
+    height: 74px;
+    left: -24px;
+    top: -16px;
+    
+    background: rgba(36, 36, 36, 1);
+    border-radius: 16px;
+}
+
+#logoimg{
+
+    position: absolute;
+    width: 150px;
+    height: 36px;
+    left: 13px;
+    top: 5px;
+    
+
+}
+
+#fotoperfil{
+
+    position: absolute;
+width: 34px;
+height: 34px;
+left: 1172px;
+top: 13px;
+
+}
+

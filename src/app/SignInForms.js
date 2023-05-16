@@ -19,10 +19,10 @@ signinForm.addEventListener('submit', async (e) => {
 
         console.log();
 
-        getidforemail("t@tt.com")
+        getidforemail(email)
   .then((ids) => {
     console.log(ids); // muestra el valor de ids
-    window.location.href="./HealistPa.html"+"#"+ids
+    window.location.href="./HealistPa.html"+"?"+"id="+ids
 
   })
   .catch((error) => {

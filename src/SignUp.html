@@ -46,25 +46,25 @@
           <form id="form-register">
 
             <label for="input_FirsN" id="label_FirsN">First Name </label>
-            <input type="text" name="FirsN" id="input_FirsN" >
+            <input type="text" name="FirsN" id="input_FirsN" required>
 
             <label for="input_LastN" id="label_LastN">Last Name</label>
-            <input type="text" name="input_LastN" id="input_LastN" >
+            <input type="text" name="input_LastN" id="input_LastN" required>
 
             <label for="input_email" id="label_email">Email</label>
             <input type="email" name="" id="input_email" required>
 
             <label for="input_TelNum" id="label_TelNum">Mobile Number</label>
-            <input type="number" name="input_TelNum" id="input_TelNum" >
+            <input type="number" name="input_TelNum" id="input_TelNum" required>
 
             <label for="input_identificatorNumber" id="label_identificatorNumber">ID</label>
-            <input type="text" name="input_identificatorNumber" id="input_identificatorNumber" >
+            <input type="text" name="input_identificatorNumber" id="input_identificatorNumber" required>
 
             <label for="input_nacimiento" id="label_nacimiento">Date of Birth</label>
-            <input type="date" name="input_nacimiento" id="input_nacimiento" pattern="\d{4}-\d{2}-\d{2}" placeholder="YYYY-MM-DD" >
+            <input type="date" name="input_nacimiento" id="input_nacimiento" pattern="\d{4}-\d{2}-\d{2}" placeholder="YYYY-MM-DD"required >
 
-            <label for="genero" id="label_genero">Gender</label>
-            <select name="genero" id="genero">
+            <label for="genero" id="label_genero" >Gender</label>
+            <select name="genero" id="genero" required>
               <option value=""></option>
               <option value="masculino">Masculino</option>
               <option value="femenino">Femenino</option>
@@ -74,7 +74,7 @@
             <input type="password" name="input_Password" id="input_Password" required>
 
             <label for="input_Confirm_pass" id="label_Confirm_pass">Confirm Password</label>
-            <input type="password" name="input_Confirm_pass" id="input_Confirm_pass" >
+            <input type="password" name="input_Confirm_pass" id="input_Confirm_pass" required>
 
             <p id="errortext"></p>
 
