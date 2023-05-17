@@ -24,7 +24,7 @@ imagen.addEventListener("click", function () {
 var botonCita = document.getElementById("botoncitaemerg");
 
 botonCita.addEventListener("click", function () {
-  window.alert("Contact us to modify your account details.");
+  window.alert("Algorithm under maintenance, contact us by chat as soon as possible to schedule an appointment.");
 
 
 });
