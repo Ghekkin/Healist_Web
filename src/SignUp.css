@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.signup {
+  position: absolute;
+  width: 253px;
+  height: 84px;
+  left: 69px;
+  top: 207px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 69px;
+  line-height: 84px;
+
+  color: #262626;
+}
+
+.instrucciones {
+  position: absolute;
+  width: 448px;
+  height: 42px;
+  left: 69px;
+  top: 310px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 42px;
+
+  color: #262626;
+}
+
+.datosfiltrados {
+  position: absolute;
+  width: 617px;
+  height: 96px;
+  left: 70px;
+  top: 385px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 120% */
+
+  color: rgba(0, 0, 0, 0.54);
+}
+
+#input_FirsN,
+#input_LastN,
+#input_email,
+#input_TelNum,
+#input_identificatorNumber,
+#input_nacimiento,
+#genero,
+#input_Password,
+#input_Confirm_pass {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #9e9e9e;
+  border-radius: 8px;
+}
+
+#input_FirsN,
+#input_LastN,
+#input_email,
+#input_TelNum,
+#input_identificatorNumber,
+#genero,
+#input_Password,
+#input_Confirm_pass {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #9e9e9e;
+  border-radius: 8px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  /* input-border */
+  color: black;
+  text-indent: 35px;
+}
+
+#label_FirsN,
+#label_LastN,
+#label_email,
+#label_TelNum,
+#label_identificatorNumber,
+#label_nacimiento,
+#label_genero,
+#label_Pass,
+#label_Confirm_pass {
+  opacity: 1;
+  transition: opacity 0.1s ease-in;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  /* input-border */
+  color: #9e9e9e;
+}
+
+#label_FirsN.ocultar,
+#label_LastN.ocultar,
+#label_email.ocultar,
+#label_TelNum.ocultar,
+#label_identificatorNumber.ocultar,
+#label_nacimiento.ocultar,
+#label_genero.ocultar,
+#label_Pass.ocultar,
+#label_Confirm_pass.ocultar {
+  opacity: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  /* input-border */
+}
+
+#label_FirsN {
+  cursor: text;
+  position: absolute;
+  width: 128px;
+  height: 30px;
+  left: 113.44px;
+  top: 555px;
+}
+#input_FirsN {
+  cursor: text;
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 625px;
+  height: 63px;
+  left: 69px;
+  top: 539px;
+}
+
+#label_LastN {
+  position: absolute;
+  width: 126px;
+  height: 30px;
+  left: 789.44px;
+  top: 555px;
+}
+#input_LastN {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 625px;
+  height: 63px;
+  left: 745px;
+  top: 539px;
+}
+
+#label_email {
+  position: absolute;
+  width: 65px;
+  height: 30px;
+  left: 113.44px;
+  top: 672px;
+}
+#input_email {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 625px;
+  height: 63px;
+  left: 69px;
+  top: 656px;
+}
+
+#label_TelNum {
+  position: absolute;
+  width: 178px;
+  height: 30px;
+  left: 789.44px;
+  top: 672px;
+}
+#input_TelNum {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 625px;
+  height: 63px;
+  left: 745px;
+  top: 656px;
+}
+
+#label_identificatorNumber {
+  position: absolute;
+  width: 67px;
+  height: 30px;
+  left: 113.44px;
+  top: 787px;
+}
+#input_identificatorNumber {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 625px;
+  height: 63px;
+  left: 69px;
+  top: 771px;
+}
+
+#label_nacimiento {
+  position: absolute;
+  width: 146px;
+  height: 30px;
+  left: 789.44px;
+  top: 787px;
+
+  color: #9e9e9e;
+}
+#input_nacimiento {
+  box-sizing: border-box;
+
+  text-indent: 120px;
+
+  position: absolute;
+  width: 625px;
+  height: 63px;
+  left: 745px;
+  top: 771px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 120% */
+}
+
+#label_genero {
+  position: absolute;
+  width: 84px;
+  height: 30px;
+  left: 98.37px;
+  top: 899px;
+}
+#genero {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 399px;
+  height: 63px;
+  left: 70px;
+  top: 882px;
+}
+
+#label_Pass {
+  position: absolute;
+  width: 115px;
+  height: 30px;
+  left: 555px;
+  top: 898px;
+}
+#input_Password {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 399px;
+  height: 63px;
+  left: 525px;
+  top: 882px;
+}
+
+#label_Confirm_pass {
+  position: absolute;
+  width: 214px;
+  height: 30px;
+  left: 999.37px;
+  top: 898px;
+}
+#input_Confirm_pass {
+  position: absolute;
+  width: 399px;
+  height: 63px;
+  left: 971px;
+  top: 882px;
+}
+
+#Registesbutt {
+  cursor: pointer;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 34px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #111111;
+
+  position: absolute;
+  width: 281px;
+  height: 67px;
+  left: 579px;
+  top: 1030px;
+
+  background: #c393c2;
+  border-radius: 5px;
+
+  padding-left: 5.8%;
+
+  border-color: rgba(0, 0, 0, 0);
+}
+
+#Registesbutt:hover {
+  background-color: #d690d5ad;
+}
+
+#Registesbutt.loading {
+  pointer-events: none;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 34px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #111111;
+
+  position: absolute;
+  width: 281px;
+  height: 67px;
+  left: 579px;
+  top: 1030px;
+
+  background: #c393c2;
+  border-radius: 5px;
+
+  padding-left: 5.8%;
+
+  border-color: rgba(0, 0, 0, 0);
+}
+
+#errortext {
+  position: absolute;
+  width: 800px;
+  height: 30px;
+  left: 70px;
+  top: 481px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+
+  color: rgba(202, 47, 47, 0.47);
+}
+
+#loading.start {
+  position: absolute;
+
+  left: 200px;
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #5d7aaa;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

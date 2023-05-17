@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.TextTitle {
+  position: absolute;
+  width: 226px;
+  height: 84px;
+  left: 258px;
+  top: 188px;
+  text-align: center;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 69px;
+  line-height: 84px;
+
+  color: #262626;
+}
+
+.Textinstruc {
+  position: absolute;
+  width: 412px;
+  height: 42px;
+  left: 165px;
+  top: 290px;
+
+  text-align: center;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: #111111;
+}
+
+.eslogan {
+  text-align: center;
+
+  position: absolute;
+  width: 372px;
+  height: 69px;
+  left: 185px;
+  top: 368px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.inputs .email {
+  position: absolute;
+  width: 625px;
+  height: 63px;
+  left: 86.44px;
+  top: 519px;
+
+  border: 1px solid #9e9e9e;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.inputs a:hover {
+  color: #c50000;
+}
+
+#lo_email_input {
+  position: absolute;
+  width: 625px;
+  height: 63px;
+  left: 42px;
+  top: 503px;
+  border: 1px solid #9e9e9e;
+  border-radius: 8px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  align-items: center;
+  color: #262626;
+  text-align: center;
+
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#email_label {
+  opacity: 1;
+  transition: opacity 0.2s ease-out;
+
+  position: absolute;
+  width: 65px;
+  height: 30px;
+  left: 322px;
+  top: 520px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+
+  /* input-border */
+
+  color: #9e9e9e;
+}
+
+#email_label.ocultar {
+  opacity: 0;
+}
+
+#lo_pass_input {
+  position: absolute;
+  width: 625px;
+  height: 63px;
+  left: 42px;
+  top: 618px;
+
+  border: 1px solid #9e9e9e;
+  border-radius: 8px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  align-items: center;
+  color: #262626;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#pass_label {
+  opacity: 1;
+  transition: opacity 0.2s ease-out;
+
+  position: absolute;
+  width: 115px;
+  height: 30px;
+  left: 293px;
+  top: 635px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+
+  /* input-border */
+
+  color: #9e9e9e;
+}
+
+#pass_label.ocultar {
+  opacity: 0;
+}
+
+.Sign_in {
+  position: absolute;
+  width: 274px;
+  height: 67px;
+  left: 214px;
+  top: 796px;
+
+  background: #c393c2;
+  border-radius: 15px;
+  cursor: pointer;
+
+  border: none;
+}
+
+.Sign_in:hover {
+  background: #d690d5ad;
+}
+
+#loginbut {
+  position: absolute;
+  width: 281px;
+  height: 67px;
+  left: 215px;
+  top: 812px;
+  cursor: pointer;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 34px;
+  /* identical to box height */
+  background: #c393c2;
+
+  display: flex;
+  align-items: center;
+
+  color: #262626;
+  border-radius: 5px;
+
+  padding-left: 5.8%;
+
+  border-color: rgba(0, 0, 0, 0);
+}
+
+#loginbut:hover {
+  background-color: #d690d5ad;
+}
+
+.doctor_1 {
+  position: relative;
+
+  top: 9.6px;
+  float: right;
+}
+
+#texterror {
+  position: absolute;
+  width: 864px;
+  height: 30px;
+  left: 42px;
+  top: 456px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+
+  color: rgba(202, 47, 47, 0.47);
+}
