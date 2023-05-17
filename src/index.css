@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,234 +6,215 @@
   background-color: #262626;
 }
 
-#title1{
+#title1 {
   position: absolute;
   width: 1153px;
   height: 318px;
   left: 143px;
   top: 246px;
-  
-  font-family: 'Poppins';
+
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 128px;
   line-height: 158px;
 
-  
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: capitalize;
-  
-  color: #DEE5F5;
 
+  color: #dee5f5;
 }
 
-#title2{
+#title2 {
   position: absolute;
   width: 1153px;
   height: 318px;
   left: 327px;
   top: 404px;
-  
-  font-family: 'Poppins';
+
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 128px;
   line-height: 158px;
-  
+
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: capitalize;
-  
-  color: #C393C2;
-background-color: rgb(0, 0, 0,0);
-  
+
+  color: #c393c2;
+  background-color: rgb(0, 0, 0, 0);
 }
 
-#puntos1{
+#puntos1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 0px;
   gap: 12px;
-  
+
   position: absolute;
   width: 465px;
   height: 26px;
   left: 672px;
   top: 551px;
 
-  background-color: rgb(0, 0, 0,0);
-
+  background-color: rgb(0, 0, 0, 0);
 }
 
-#h1service{
+#h1service {
   position: absolute;
-width: 241px;
-height: 61px;
-right: 886px;
-top: 813px;
+  width: 241px;
+  height: 61px;
+  right: 886px;
+  top: 813px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 61px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 61px;
 
-letter-spacing: 0.05em;
-text-transform: capitalize;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
 
-color: #DEE5F5;
+  color: #dee5f5;
 }
 
-#ServiceText{
-
+#ServiceText {
   position: absolute;
-width: 791px;
-height: 292px;
-left: 38px;
-top: 928px;
+  width: 791px;
+  height: 292px;
+  left: 38px;
+  top: 928px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 156%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 156%;
 
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
 
-display: flex;
-align-items: center;
-text-align: justify;
-letter-spacing: 0.05em;
-text-transform: capitalize;
+  color: #ffffff;
 
-color: #FFFFFF;
-
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#points2{
-
+#points2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   padding: 0px;
   gap: 30px;
-  
+
   position: absolute;
   width: 465px;
   height: 754px;
   left: -70px;
   top: 1597px;
-
 }
 
-#h1Service{
+#h1Service {
   position: absolute;
   width: 241px;
   height: 61px;
   left: 847px;
   top: 1592px;
-    
-  font-family: 'Poppins';
+
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 61px;
-  
+
   letter-spacing: 0.05em;
   text-transform: capitalize;
-  
-  color: #DEE5F5;
 
+  color: #dee5f5;
 }
 
-#Servicetext1{
-
+#Servicetext1 {
   position: absolute;
-width: 791px;
-height: 536px;
-left: 572px;
-top: 1684px;
+  width: 791px;
+  height: 536px;
+  left: 572px;
+  top: 1684px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 145%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 145%;
 
-text-align: justify;
-letter-spacing: 0.04em;
-text-transform: capitalize;
+  text-align: justify;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
 
-color: #FFFFFF;
+  color: #ffffff;
 
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#Servicetext2{
-
+#Servicetext2 {
   position: absolute;
   width: 791px;
   height: 130px;
   left: 572px;
   top: 1829px;
-  
-  font-family: 'Poppins';
+
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 145%;
 
+  text-align: justify;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Servicetext3 {
+  position: absolute;
+  width: 791px;
+  height: 101px;
+  left: 572px;
+  top: 2003px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 145%;
 
   text-align: justify;
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  
-  color: #FFFFFF;
-  
+
+  color: #ffffff;
+
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
 }
 
-#Servicetext3{
-
-  position: absolute;
-width: 791px;
-height: 101px;
-left: 572px;
-top: 2003px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 145%;
-
-
-text-align: justify;
-letter-spacing: 0.04em;
-text-transform: capitalize;
-
-color: #FFFFFF;
-
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-}
-
-#Servicetext4{
-
+#Servicetext4 {
   position: absolute;
   width: 791px;
   height: 72px;
   left: 572px;
   top: 2148px;
-  
-  font-family: 'Poppins';
+
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -242,177 +223,150 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-align: justify;
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  
-  color: #FFFFFF;
-  
+
+  color: #ffffff;
+
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.Registerb{
-
+.Registerb {
   position: absolute;
   width: 81px;
   height: 27px;
   left: 392.14px;
   top: 1309.5px;
-  
-  font-family: 'Poppins';
+
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  
+
   letter-spacing: 0.05em;
   text-transform: capitalize;
-  
+
   color: #262626;
 
   cursor: pointer;
-
 }
 
-.Registerb{
+.Registerb {
   position: absolute;
   width: 209.27px;
   height: 54px;
   left: 328px;
   top: 1296px;
-  
-  background: #C393C2;
+
+  background: #c393c2;
   border-radius: 5px;
 }
-
 
 ::-webkit-scrollbar {
   color: #000000;
 }
 
-.doctorsentao{
-
+.doctorsentao {
   position: absolute;
   width: 497px;
   height: 431px;
   left: 892px;
   top: 811px;
-
 }
 
-
-#serv{
-
+#serv {
   position: absolute;
-width: 241px;
-height: 61px;
-right: 878px;
-top: 671px;
-
+  width: 241px;
+  height: 61px;
+  right: 878px;
+  top: 671px;
 }
 
-#Abou{
+#Abou {
   position: absolute;
   width: 465px;
   height: 754px;
   left: -70px;
   top: 1497px;
-
-
 }
 
-#hom{
+#hom {
   position: absolute;
   left: 0px;
   top: 0px;
-  
 }
 
-#head{
-
+#head {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-
 }
 
-
-
-
-.Rectanguloinferiorindx{
-
+.Rectanguloinferiorindx {
   position: absolute;
   width: 1440px;
   height: 241px;
   left: 0px;
 
-  
   background: #262626;
 }
 
-
-.iconinfindx{
+.iconinfindx {
   position: absolute;
   width: 150px;
   height: 36px;
   left: 133px;
   top: 2463px;
-  
-
 }
 
-.eslogainfindx{
+.eslogainfindx {
   position: absolute;
   width: 285px;
   height: 53.08px;
   left: 133px;
   top: 2521px;
-  
-  font-family: 'Roboto';
+
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   /* or 150% */
-  
-  
-  color: #FFFFFF;
 
+  color: #ffffff;
 }
 
-
-.marcaregisindx{
+.marcaregisindx {
   position: absolute;
   height: 23.59px;
   left: 9.24%;
   right: 69.65%;
   top: 2604.56px;
-  
-  font-family: 'Roboto';
+
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  
-  
-  color: #FFFFFF;
 
+  color: #ffffff;
 }
 
-.paraquenonosdenuncienindx{
+.paraquenonosdenuncienindx {
   position: absolute;
   height: 53.08px;
   left: 34.58%;
   right: 34.58%;
   top: 2519px;
-  
-  font-family: 'Roboto';
+
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   /* or 120% */
-  
-  text-align: center;
-  
-  color: #FFFFFF;
 
+  text-align: center;
+
+  color: #ffffff;
 }

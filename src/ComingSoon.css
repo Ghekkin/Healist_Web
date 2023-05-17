@@ -1,199 +1,173 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #262626;
-  }
-  
-
-.fondo{
-
-    position: absolute;
-width: 2208px;
-height: 1819px;
-left: -329px;
-top: -558px;
-
-}
-.logomid{
-    background-color: transparent;
-
-position: absolute;
-left: 50%;
-top: 128px;
-transform: translate(-50%, -50%);
-max-width: 100%;
-max-height: 100%;
-background-color:rgba(255, 255, 255, 0);
-
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #262626;
 }
 
-.circulo1{
+.fondo {
+  position: absolute;
+  width: 2208px;
+  height: 1819px;
+  left: -329px;
+  top: -558px;
+}
+.logomid {
+  background-color: transparent;
 
-    position: absolute;
-width: 765px;
-height: 765px;
-top: -50%;
-right: -25%;
-border-radius: 50%;
-background: #DEE5F5;
-mix-blend-mode: overlay;
-opacity: 0.7;
-position: fixed;
-
+  position: absolute;
+  left: 50%;
+  top: 128px;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  background-color: rgba(255, 255, 255, 0);
 }
 
-.circulo11{
-
-    box-sizing: border-box;
-    position: fixed;
-
-    position: absolute;
-    width: 928px;
-    height: 929px;
-    top: -60%;
-    right: -30%;
-    border-radius: 50%;
-    position: fixed;
-
-    border: 1px solid #C393C2;
-
+.circulo1 {
+  position: absolute;
+  width: 765px;
+  height: 765px;
+  top: -50%;
+  right: -25%;
+  border-radius: 50%;
+  background: #dee5f5;
+  mix-blend-mode: overlay;
+  opacity: 0.7;
+  position: fixed;
 }
 
-.circulo2{
+.circulo11 {
+  box-sizing: border-box;
+  position: fixed;
 
-    position: static;
-width: 765px;
-height: 765px;
-left: -247px;
-top: 414px;
-border-radius: 50%;
+  position: absolute;
+  width: 928px;
+  height: 929px;
+  top: -60%;
+  right: -30%;
+  border-radius: 50%;
+  position: fixed;
 
-background: #DEE5F5;
-mix-blend-mode: overlay;
-position: fixed;
-
+  border: 1px solid #c393c2;
 }
 
-.circulo22{
+.circulo2 {
+  position: static;
+  width: 765px;
+  height: 765px;
+  left: -247px;
+  top: 414px;
+  border-radius: 50%;
 
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 928px;
-    height: 929px;
-    left: -329px;
-    top: 332px;
-    border-radius: 50%;
-    position: fixed;
-
-    border: 1px solid #C393C2;
-
+  background: #dee5f5;
+  mix-blend-mode: overlay;
+  position: fixed;
 }
 
+.circulo22 {
+  box-sizing: border-box;
 
+  position: absolute;
+  width: 928px;
+  height: 929px;
+  left: -329px;
+  top: 332px;
+  border-radius: 50%;
+  position: fixed;
 
-.commingsoon{
-    position: absolute;
-    
-    left: 50%;
-    top: 343px;
-    transform: translate(-50%, -50%);
-
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 65px;
-    line-height: 86px;
-    text-align: center;
-    background-color:rgba(255, 255, 255, 0);
-
-    color: #DEE5F5;
-}
-.Homebutt{
-    position: absolute;
-    width: 150px;
-    height: 50px;
-    left: 50%;
-    top: 554px;
-    transform: translate(-50%, -50%);
-
-padding: 9px 25px;
-background-color: #c393c2;
-cursor: pointer;
-transition: all 0s ease 0s;
-
-border: 1px solid #c393c2;
-border-radius: 5px;
-
-font-family: "Poppins", sans-serif;
-font-weight: 500;
-font-size: 16px;
-color: #000000;
-text-decoration: none;
+  border: 1px solid #c393c2;
 }
 
-.Homebutt:hover{
+.commingsoon {
+  position: absolute;
 
-    background-color: #c393c251;
+  left: 50%;
+  top: 343px;
+  transform: translate(-50%, -50%);
 
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 65px;
+  line-height: 86px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
 
+  color: #dee5f5;
+}
+.Homebutt {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 50%;
+  top: 554px;
+  transform: translate(-50%, -50%);
+
+  padding: 9px 25px;
+  background-color: #c393c2;
+  cursor: pointer;
+  transition: all 0s ease 0s;
+
+  border: 1px solid #c393c2;
+  border-radius: 5px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
 }
 
-.prox{
-    background-color:rgba(255, 255, 255, 0);
-
-    position: absolute;
-width: 700px;
-height: 43px;
-left: 50%;
-top: 461px;
-transform: translate(-50%, -50%);
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 43px;
-text-align: center;
-
-color: #FFFFFF;
-
+.Homebutt:hover {
+  background-color: #c393c251;
 }
 
-.buttonfb{
+.prox {
+  background-color: rgba(255, 255, 255, 0);
 
-    position: absolute;
-width: 31px;
-height: 31px;
-left: 45%;
-top: 654px;
-transform: translate(-45%, -45%);
+  position: absolute;
+  width: 700px;
+  height: 43px;
+  left: 50%;
+  top: 461px;
+  transform: translate(-50%, -50%);
 
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+
+  color: #ffffff;
 }
 
-.buttongt{
-
-    position: absolute;
-width: 30.5px;
-height: 30.5px;
-left: 50%;
-top: 654px;
-transform: translate(-50%, -50%);
-
+.buttonfb {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 45%;
+  top: 654px;
+  transform: translate(-45%, -45%);
 }
 
-.buttontw{
-    position: absolute;
-    width: 39px;
-    height: 31px;
-    left: 55%;
-    top: 654px;
-    transform: translate(-55%, -55%);
-
+.buttongt {
+  position: absolute;
+  width: 30.5px;
+  height: 30.5px;
+  left: 50%;
+  top: 654px;
+  transform: translate(-50%, -50%);
 }
 
-
+.buttontw {
+  position: absolute;
+  width: 39px;
+  height: 31px;
+  left: 55%;
+  top: 654px;
+  transform: translate(-55%, -55%);
+}

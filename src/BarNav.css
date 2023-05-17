@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-li,a,.SignUpbutt {
+li,
+a,
+.SignUpbutt {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -97,82 +99,72 @@ header {
   background-color: #c393c286;
 }
 
-.Rectanguloinferior{
-
-position: absolute;
-width: 1440px;
-height: 241px;
-left: 0px;
-top: 1167px;
-width: 100%;
-background: #262626;
-
+.Rectanguloinferior {
+  position: absolute;
+  width: 1440px;
+  height: 241px;
+  left: 0px;
+  top: 1167px;
+  width: 100%;
+  background: #262626;
 }
 
-.iconinf{
-
+.iconinf {
   position: absolute;
   width: 150px;
   height: 36px;
   left: 133px;
   bottom: 185px;
-  
-
 }
 
-.eslogainf{
-
+.eslogainf {
   position: absolute;
-height: 53.08px;
-left: 133px;
-right: 1022px;
-bottom: 109.92px;
+  height: 53.08px;
+  left: 133px;
+  right: 1022px;
+  bottom: 109.92px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* or 150% */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
 
-
-color: #FFFFFF;
-
+  color: #ffffff;
 }
 
-.marcaregis{
-
+.marcaregis {
   position: absolute;
-height: 23.59px;
-left: 133px;
-right: 1003px;
-bottom: 55.85px;
+  height: 23.59px;
+  left: 133px;
+  right: 1003px;
+  bottom: 55.85px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 
-color: #FFFFFF;
-
+  color: #ffffff;
 }
 
-.paraquenonosdenuncien{
+.paraquenonosdenuncien {
   position: absolute;
-height: 75px;
-left: 498px;
-right: 498px;
-bottom: 90px;
+  height: 75px;
+  left: 498px;
+  right: 498px;
+  bottom: 90px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-/* or 120% */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
 
-text-align: center;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }

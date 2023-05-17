@@ -1,99 +1,137 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Healist</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./SignUp.css">
-        <link rel="stylesheet" href="./BarNav.css" />
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Healist</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./SignUp.css" />
+    <link rel="stylesheet" href="./BarNav.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./media/LOGO-ICONO.svg" alt="logo" />
 
-    </head>
-    <body>
-        <header>
-            <img class="logo" src="./media/LOGO-ICONO.svg" alt="logo" />
-      
-            <nav>
-              <ul class="nav__links">
-                <li><a href="./index.html#hom">Home</a></li>
-                <li><a href="./index.html#serv">Service</a></li>
-                <li><a href="./index.html#Abou">About</a></li>
-              </ul>
-            </nav>
-      
-            <nav>
-              <ul class="buttonsignupyesosjaja">
-                <a class="SignUp" href="/src/SignUp.html"
-                  ><button class="SignUpbutt">Sign Up</button></a
-                >
-                <a class="Login" href="./Login.html"
-                  ><button class="Loginbutt">Login</button></a
-                >
-              </ul>
-            </nav>
-            <div class="rectangulosuperior"></div>
-          </header>
-        
-          <div>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="./index.html#hom">Home</a></li>
+          <li><a href="./index.html#serv">Service</a></li>
+          <li><a href="./index.html#Abou">About</a></li>
+        </ul>
+      </nav>
 
-            <h1 class="signup">Sign Up</h1>
-            <h5 class="instrucciones">Please Sign Up To Continue</h5>
-            <p class="datosfiltrados">Service under development, due to this there may be vulnerabilities in our system, therefore, we are not responsible for data leaks.</p>
+      <nav>
+        <ul class="buttonsignupyesosjaja">
+          <a class="SignUp" href="/src/SignUp.html"
+            ><button class="SignUpbutt">Sign Up</button></a
+          >
+          <a class="Login" href="./Login.html"
+            ><button class="Loginbutt">Login</button></a
+          >
+        </ul>
+      </nav>
+      <div class="rectangulosuperior"></div>
+    </header>
 
-          </div>
+    <div>
+      <h1 class="signup">Sign Up</h1>
+      <h5 class="instrucciones">Please Sign Up To Continue</h5>
+      <p class="datosfiltrados">
+        Service under development, due to this there may be vulnerabilities in
+        our system, therefore, we are not responsible for data leaks.
+      </p>
+    </div>
 
-          <form id="form-register">
+    <form id="form-register">
+      <label for="input_FirsN" id="label_FirsN">First Name </label>
+      <input type="text" name="FirsN" id="input_FirsN" required />
 
-            <label for="input_FirsN" id="label_FirsN">First Name </label>
-            <input type="text" name="FirsN" id="input_FirsN" required>
+      <label for="input_LastN" id="label_LastN">Last Name</label>
+      <input type="text" name="input_LastN" id="input_LastN" required />
 
-            <label for="input_LastN" id="label_LastN">Last Name</label>
-            <input type="text" name="input_LastN" id="input_LastN" required>
+      <label for="input_email" id="label_email">Email</label>
+      <input type="email" name="" id="input_email" required />
 
-            <label for="input_email" id="label_email">Email</label>
-            <input type="email" name="" id="input_email" required>
+      <label for="input_TelNum" id="label_TelNum">Mobile Number</label>
+      <input type="tel" name="input_TelNum" id="input_TelNum" required />
 
-            <label for="input_TelNum" id="label_TelNum">Mobile Number</label>
-            <input type="number" name="input_TelNum" id="input_TelNum" required>
+      <label for="input_identificatorNumber" id="label_identificatorNumber"
+        >ID</label
+      >
+      <input
+        type="text"
+        name="input_identificatorNumber"
+        id="input_identificatorNumber"
+        required
+      />
 
-            <label for="input_identificatorNumber" id="label_identificatorNumber">ID</label>
-            <input type="text" name="input_identificatorNumber" id="input_identificatorNumber" required>
+      <label for="input_nacimiento" id="label_nacimiento">Date of Birth</label>
+      <input
+        type="date"
+        name="input_nacimiento"
+        id="input_nacimiento"
+        pattern="\d{4}-\d{2}-\d{2}"
+        placeholder="YYYY-MM-DD"
+        required
+      />
 
-            <label for="input_nacimiento" id="label_nacimiento">Date of Birth</label>
-            <input type="date" name="input_nacimiento" id="input_nacimiento" pattern="\d{4}-\d{2}-\d{2}" placeholder="YYYY-MM-DD"required >
+      <label for="genero" id="label_genero">Gender</label>
+      <select name="genero" id="genero" required>
+        <option value=""></option>
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+      </select>
 
-            <label for="genero" id="label_genero" >Gender</label>
-            <select name="genero" id="genero" required>
-              <option value=""></option>
-              <option value="masculino">Masculino</option>
-              <option value="femenino">Femenino</option>
-            </select>
+      <label for="input_Password" id="label_Pass">Password</label>
+      <input
+        type="password"
+        name="input_Password"
+        id="input_Password"
+        required
+      />
 
-            <label for="input_Password" id="label_Pass">Password</label>
-            <input type="password" name="input_Password" id="input_Password" required>
+      <label for="input_Confirm_pass" id="label_Confirm_pass"
+        >Confirm Password</label
+      >
+      <input
+        type="password"
+        name="input_Confirm_pass"
+        id="input_Confirm_pass"
+        required
+      />
 
-            <label for="input_Confirm_pass" id="label_Confirm_pass">Confirm Password</label>
-            <input type="password" name="input_Confirm_pass" id="input_Confirm_pass" required>
+      <p id="errortext"></p>
 
-            <p id="errortext"></p>
+      <button type="submit" id="Registesbutt" class="Registesbutt">
+        Register
+        <div id="loading"></div>
+      </button>
+    </form>
 
-            <button type="submit" id="Registesbutt" class="Registesbutt">Register <div id="loading"></div></button>
+    <script type="module" src="./app/firebaseconfig.js"></script>
+    <script type="module" src="./app/SignUpFormSubmit.js"></script>
 
-            
-          </form>
+    <div class="Rectanguloinferior">
+      <img class="iconinf" src="./media/LOGO-ICONO.svg" alt="iconinf" />
+      <p class="eslogainf">Committed to people's health and wellbeing</p>
+      <p class="marcaregis">© Healist 2023</p>
+      <p class="paraquenonosdenuncien">
+        Service under development, due to this there may be vulnerabilities in
+        our system, therefore, we are not responsible for data leaks.
+      </p>
+    </div>
 
-          <script type="module" src="./app/firebaseconfig.js"></script>
-          <script type="module" src="./app/SignUpFormSubmit.js"></script>
-        
-            <div class="Rectanguloinferior">
+    <script src="./app/SignupFormAnimations.js" async defer></script>
+  </body>
 
-              <img class="iconinf" src="./media/LOGO-ICONO.svg" alt="iconinf">
-              <p class="eslogainf">Committed to people's health and wellbeing</p>
-              <p class="marcaregis">© Healist 2023</p>
-              <p class="paraquenonosdenuncien">Service under development, due to this there may be vulnerabilities in our system, therefore, we are not responsible for data leaks.</p>
-              </div>
-              
-        <script src="./app/SignupFormAnimations.js" async defer></script>
-    </body>
+  <!-- Start of HubSpot Embed Code -->
+  <script
+    type="text/javascript"
+    id="hs-script-loader"
+    async
+    defer
+    src="//js-na1.hs-scripts.com/39766823.js"
+  ></script>
+  <!-- End of HubSpot Embed Code -->
 </html>

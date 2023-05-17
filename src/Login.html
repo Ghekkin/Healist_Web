@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./BarNav.css" />
     <link rel="stylesheet" href="./Login.css" />
-
   </head>
   <body>
     <header>
@@ -36,39 +35,38 @@
       <div class="rectangulosuperior"></div>
     </header>
 
-    <img src="./media/Group 1000004313.png" alt="doctor_1" class="doctor_1">  
-
+    <img src="./media/Group 1000004313.png" alt="doctor_1" class="doctor_1" />
 
     <h2 class="TextTitle">Sign In</h2>
     <h1 class="Textinstruc">Please Login To Continue</h1>
     <p class="eslogan">Committed to people's health and wellbeing</p>
 
     <form id="formlogin">
+      <p id="texterror"></p>
+      <label for="email_input" id="email_label">Email</label>
+      <input type="email" id="lo_email_input" />
 
-            <p id="texterror"></p>
-            <label for="email_input" id="email_label">Email</label>
-            <input type="email" id="lo_email_input">
-        
-            <label for="pass_input" id="pass_label">Password</label>
-            <input type="password" id="lo_pass_input">
-       
+      <label for="pass_input" id="pass_label">Password</label>
+      <input type="password" id="lo_pass_input" />
 
-      <button type="submit" id="loginbut" class="Registesbutt">Sign in <div id="loading"></div></button>
-
-
+      <button type="submit" id="loginbut" class="Registesbutt">
+        Sign in
+        <div id="loading"></div>
+      </button>
     </form>
-<script type="module" src="./app/firebaseconfig.js"></script>
-<script type="module" src="./app/SignInForms.js" ></script>
+    <script type="module" src="./app/firebaseconfig.js"></script>
+    <script type="module" src="./app/SignInForms.js"></script>
 
+    <div class="Rectanguloinferior">
+      <img class="iconinf" src="./media/LOGO-ICONO.svg" alt="iconinf" />
+      <p class="eslogainf">Committed to people's health and wellbeing</p>
+      <p class="marcaregis">© Healist 2023</p>
+      <p class="paraquenonosdenuncien">
+        Service under development, due to this there may be vulnerabilities in
+        our system, therefore, we are not responsible for data leaks.
+      </p>
+    </div>
 
-<div class="Rectanguloinferior">
-
-<img class="iconinf" src="./media/LOGO-ICONO.svg" alt="iconinf">
-<p class="eslogainf">Committed to people's health and wellbeing</p>
-<p class="marcaregis">© Healist 2023</p>
-<p class="paraquenonosdenuncien">Service under development, due to this there may be vulnerabilities in our system, therefore, we are not responsible for data leaks.</p>
-</div>
-
-<script src="./app/LoginAnimation.js" type="module"></script>
-</body>
+    <script src="./app/LoginAnimation.js" type="module"></script>
+  </body>
 </html>
